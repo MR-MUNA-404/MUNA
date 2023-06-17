@@ -1,0 +1,11 @@
+File clone 
+Run this
+pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests
+pip install bs4 
+pip2 install bs4 
+apt update -y;apt upgrade -y
+apt install git python -y
+rm -rf MUNA
+git clone https://github.com/MR-MUNA-404/MUNA
+cd MUNA
+python MUNA.py
