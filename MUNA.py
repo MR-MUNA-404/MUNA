@@ -100,8 +100,8 @@ logo ="""███    ███ ██   ██ ██████
 ██  ██  ██ ██   ██ ██   ██ 
 ██      ██ ██   ██ ██████  
 \033[1;37m--------------------------
-[~] Author   : MHB
-[~] Facebook : MHB
+[~] Author   : MUHAMMAD HASSAN
+[~] Facebook : ZULFIQAR BALOCH
 [~] Tool     : PAID
 [~] Version  : 1-0
 [~] \033[1;32mUPDATE DATE  : 17/JUN/2023\033[1;37m
