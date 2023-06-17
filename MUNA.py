@@ -261,9 +261,11 @@ def tnx():
       sys.exit()
   except:
     sys.exit()
-    if ___name___ == '__main__':
-          print(logo)
-          ze()
+    if __name__=='__main__':
+	try:os.system('git pull')
+	except:pass
+	try:os.mkdir('python MUNA.py')
+	except:pass
 try:
       ze()
 except requests.exceptions.ConnectionError:
