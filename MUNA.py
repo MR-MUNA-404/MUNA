@@ -201,7 +201,7 @@ def menu_apikey():
 ██  ██  ██ ██   ██ ██   ██ 
 ██      ██ ██   ██ ██████  
 \033[1;37m--------------------------
-[~] Author   : MHB
+[~] Author   : ZHB
 [~] Facebook : MHB
 [~] Tool     : PAID
 [~] Version  : 1-0
