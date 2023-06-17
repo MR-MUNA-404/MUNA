@@ -1,14 +1,43 @@
-import os
-import requests
-import random
-import sys
-import re
-import time
+import os,zlib
+
+from os import system as osRUB
+from os import system as cmd
+os.system('clear')
+print('loading Modules ...\n')
+
+
+
+try:
+    import requests 
+except ImportError:
+    print('\n  installing Requests ...\n')
+    os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
+
+
+try:
+    import concurrent.futures
+except ImportError:
+    print('\n  installing futures ...\n')
+    os.system('pip install futures')
+
+try:
+    import mechanize
+except ModuleNotFoundError:
+    os.system('pip install mechanize > /dev/null')
+
+from urllib.request import Request, urlopen
+import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,datetime,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
+from concurrent.futures import ThreadPoolExecutor as sarfrazssb
+from string import * 
+from random import randint
+from time import sleep as slp
+from os import system as cmd
+from zlib import decompress 
+import os, platform
 from concurrent.futures import ThreadPoolExecutor as tred
 import base64
 import uuid
 import json
-os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
 os.system('git pull')
 
 pcp = []
@@ -262,10 +291,8 @@ def tnx():
   except:
     sys.exit()
     if __name__=='__main__':
-	try:os.system('git pull')
-	except:pass
-	try:os.mkdir('python MUNA.py')
-	except:pass
+	print(logo)
+        menu_apikey()
 try:
       ze()
 except requests.exceptions.ConnectionError:
