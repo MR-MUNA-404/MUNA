@@ -10,10 +10,6 @@ import uuid
 import json
 os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
 os.system('git pull')
-os.system('rm -rf MUNA')
-os.system('git clone https://github.com/MR-MUNA-404/MUNA')
-os.system('cd MUNA')
-os.system('python MUNA.py')
 
 pcp = []
 loop = 0
