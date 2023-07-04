@@ -1,4 +1,7 @@
 import os
+print("[✓] WELCOME MHB PAID USER")
+os.system(" git pull")
+import os
 print("[✓] JOIN MHB CHAT GROUP")
 os.system("xdg-open https://chat.whatsapp.com/DTFRXJF2wop3moMbyUPKrm")
 import os
